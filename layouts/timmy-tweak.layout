@@ -1,0 +1,179 @@
+[Toplevel bottom]
+orientation=bottom
+expand=true
+size=26
+
+[Toplevel toplevel-0]
+orientation=top
+expand=true
+size=24
+
+[Object notificationarea]
+locked=false
+position=1438
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=NotificationAreaAppletFactory::NotificationArea
+object-type=applet
+
+[Object clockapplet]
+locked=false
+position=1792
+panel-right-stick=false
+toplevel-id=toplevel-0
+applet-iid=ClockAppletFactory::ClockApplet
+object-type=applet
+
+[Object windowlistapplet]
+locked=true
+position=400
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=WnckletFactory::WindowListApplet
+object-type=applet
+
+[Object workspaceswitcherapplet]
+locked=false
+position=232
+panel-right-stick=true
+toplevel-id=bottom
+applet-iid=WnckletFactory::WorkspaceSwitcherApplet
+object-type=applet
+
+[Object commandapplet]
+locked=false
+position=0
+panel-right-stick=false
+toplevel-id=toplevel-0
+applet-iid=CommandAppletFactory::CommandApplet
+object-type=applet
+
+[Object shutdown]
+action-type=shutdown
+locked=true
+position=0
+panel-right-stick=false
+toplevel-id=bottom
+object-type=action
+
+[Object multiloadapplet]
+locked=true
+position=1640
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=MultiLoadAppletFactory::MultiLoadApplet
+object-type=applet
+
+[Object separator]
+locked=true
+position=145
+panel-right-stick=false
+toplevel-id=bottom
+object-type=separator
+
+[Object launcher]
+locked=true
+position=155
+launcher-location=/usr/share/applications/firefox-esr.desktop
+panel-right-stick=false
+toplevel-id=bottom
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=true
+position=182
+launcher-location=/usr/share/applications/filezilla.desktop
+panel-right-stick=false
+toplevel-id=bottom
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=true
+position=209
+launcher-location=/usr/share/applications/piavpn.desktop
+panel-right-stick=false
+toplevel-id=bottom
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=true
+position=236
+launcher-location=/usr/share/applications/Burp Suite Professional-0.desktop
+panel-right-stick=false
+toplevel-id=bottom
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=true
+position=264
+launcher-location=/usr/share/applications/sublime_text.desktop
+panel-right-stick=false
+toplevel-id=bottom
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=true
+position=291
+launcher-location=/usr/share/applications/mate-terminal.desktop
+panel-right-stick=false
+toplevel-id=bottom
+object-type=launcher
+menu-path=applications:/
+
+[Object briskmenu]
+locked=true
+position=32
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=BriskMenuFactory::BriskMenu
+object-type=applet
+
+[Object launcher]
+locked=true
+position=118
+launcher-location=/usr/share/applications/org.gnome.Nautilus.desktop
+panel-right-stick=false
+toplevel-id=bottom
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=true
+position=318
+launcher-location=/usr/share/applications/kali-sparta.desktop
+panel-right-stick=false
+toplevel-id=bottom
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=true
+position=345
+launcher-location=/usr/share/applications/kali-zenmap.desktop
+panel-right-stick=false
+toplevel-id=bottom
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=true
+position=373
+launcher-location=/usr/share/applications/kali-dirbuster.desktop
+panel-right-stick=false
+toplevel-id=bottom
+object-type=launcher
+menu-path=applications:/
+
+[Object commandapplet]
+locked=false
+position=1337
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=CommandAppletFactory::CommandApplet
+object-type=applet
+
